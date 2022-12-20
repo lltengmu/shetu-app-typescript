@@ -17,6 +17,7 @@ export default class TabNavigator extends React.Component{
                     tabBarStyle: { backgroundColor: '#fff',height:55 },
                     tabBarIndicatorStyle:{ backgroundColor:'#fff' },
                     tabBarPressColor:"#fff",
+                    swipeEnabled:false
                 })}
               >
                 {Tabs.map((item,index) => (
